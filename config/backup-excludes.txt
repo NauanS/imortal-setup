@@ -1,0 +1,26 @@
+# O que NÃO vai para o backup na nuvem (formato de exclusão do restic).
+# $HOME é expandido automaticamente. Pastas com o arquivo CACHEDIR.TAG também são puladas
+# (ex.: a pasta target/ do Rust). Comentários só em linhas próprias, começando com #.
+
+# Caches e lixeira
+$HOME/.cache
+$HOME/.local/share/Trash
+$HOME/.var/app/*/cache
+
+# Coisas que se baixam de novo
+$HOME/Downloads
+# apps Flatpak do modo "user" (reinstalados pelo install.sh)
+$HOME/.local/share/flatpak
+# imagens do Podman/Distrobox
+$HOME/.local/share/containers
+$HOME/.steam
+$HOME/.local/share/Steam
+
+# Programação: dependências e artefatos de build (recriados com npm install, cargo build...)
+node_modules
+.venv
+__pycache__
+.gradle
+$HOME/.npm/_cacache
+$HOME/.cargo/registry
+$HOME/go/pkg/mod

@@ -1,0 +1,11 @@
+# Pacotes nativos instalados em QUALQUER distro (os nomes são iguais nas 4 famílias).
+# Mantenha esta lista curta: apps de uso diário vão em config/flatpaks.txt.
+git
+curl
+rsync
+flatpak
+stow
+distrobox
+podman
+htop
+zsh

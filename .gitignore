@@ -1,0 +1,15 @@
+# Nunca versione segredos
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+.env
+*.kdbx
+# Backups locais gerados pelos scripts
+.dotfiles-backup-*/
+*.bak-*
+# Arquivos locais com dados pessoais
+.gitconfig.local
+*.local
+*.local.*
+config/reference/disco-*.txt

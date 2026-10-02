@@ -1,0 +1,27 @@
+# .gitignore global (~/.config/git/ignore): vale para TODOS os repositórios.
+# Só padrões genéricos de editor, sistema e segredos. Nada pessoal.
+
+# Editores e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+.directory
+
+# Segredos: rede de segurança para nunca irem ao Git por acidente
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.kdbx
+
+# Ferramentas de IA: configurações locais
+**/.claude/settings.local.json

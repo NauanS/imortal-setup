@@ -1,0 +1,11 @@
+# Diffs legíveis com o delta. Só é incluído no Git se o delta estiver instalado
+# (o módulo dotfiles liga isto em ~/.gitconfig.local; sem o delta, o Git continua normal).
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	line-numbers = true
+[merge]
+	conflictStyle = zdiff3

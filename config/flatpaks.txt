@@ -1,0 +1,14 @@
+# Um ID do Flathub por linha. Linhas com # são ignoradas.
+# Este arquivo é SOBRESCRITO pelo scripts/backup.sh com os apps da sua máquina.
+# Chrome, VS Code e Docker são instalados nativamente (config/native-apps.txt).
+# Exemplos (descomente o que usar):
+org.mozilla.firefox
+# org.libreoffice.LibreOffice
+# org.videolan.VLC
+# md.obsidian.Obsidian
+# com.bitwarden.desktop
+# org.gimp.GIMP
+# org.kde.kdenlive
+# com.obsproject.Studio
+# com.github.tchx84.Flatseal
+# it.mijorus.gearlever

@@ -1,0 +1,2 @@
+# Só na família Arch (Arch, EndeavourOS, CachyOS, Manjaro...)
+base-devel

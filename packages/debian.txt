@@ -1,0 +1,2 @@
+# Só na família Debian (Debian, Ubuntu, Mint, Pop!_OS...)
+build-essential

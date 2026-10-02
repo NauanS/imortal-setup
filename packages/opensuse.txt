@@ -1,0 +1,3 @@
+# Só no openSUSE (Tumbleweed, Leap)
+gcc
+make

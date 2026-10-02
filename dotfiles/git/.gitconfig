@@ -1,0 +1,22 @@
+# Configuração do Git SEM dados pessoais (este repositório é público).
+# Nome, e-mail, credenciais e tokens ficam em ~/.gitconfig.local, que NÃO é versionado.
+# O ./scripts/install.sh dotfiles pergunta a identidade e cria esse arquivo.
+# O include fica no FIM de propósito: o que estiver em ~/.gitconfig.local vence.
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[push]
+	autoSetupRemote = true
+[core]
+	editor = nano
+[alias]
+	st = status -sb
+	co = checkout
+	br = branch
+	ci = commit
+	lg = log --graph --oneline --decorate --all
+	last = log -1 --stat
+	unstage = reset HEAD --
+[include]
+	path = ~/.gitconfig.local

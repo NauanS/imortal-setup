@@ -1,0 +1,6 @@
+# Apps instalados de forma NATIVA (repositório oficial do fabricante), e não via Flatpak.
+# Use para ferramentas que precisam de integração total com o sistema.
+# Um por linha; comente (#) o que não quiser. Receitas em scripts/modules/15-apps.sh.
+docker        # Docker CE (Engine + CLI + plugins compose/buildx) — NÃO é o Docker Desktop
+google-chrome # repositório oficial do Google (atualiza junto com o sistema)
+vscode        # repositório oficial da Microsoft
